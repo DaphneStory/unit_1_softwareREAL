@@ -1,0 +1,5 @@
+install.packages("devtools")
+library(devtools)
+install_github("Harrindy/StatEngine", force=TRUE)
+library(StatEngine)
+install.packages("car")
